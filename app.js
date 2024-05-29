@@ -17,16 +17,18 @@ const showWeather = (data) => {
   if (data.cod == "404") {
     weather.innerHTML = `<h2> City Not Found <h2>`;
     return;
-  }
+}
   weather.innerHTML = `
         <div>
             <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">
         </div>
         <div>
             <h2>${data.main.temp} ℃</h2>
-            <h4> ${data.weather[0].main} </h4>
+            <h4> ${data.weather[0].main} 
+          
         </div>
     `;
+    
 };
 
 form.addEventListener("submit", function (event) {
