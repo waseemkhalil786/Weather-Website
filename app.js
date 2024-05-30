@@ -26,7 +26,7 @@ const showWeather = (data) => {
         </div>
         <div>
           <h2>${data.main.temp} ℃</h2>
-            <h4> ${data.weather[0].main} 
+            <h4> ${data.weather[0].main} </h4>
           
         </div>
     `;
