@@ -64,6 +64,12 @@ body {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+#weather{
+  background: #5973bd;
+  border: 5px solid rgb(42, 75, 136);
+  width: max-content;
+
+}
 @media (max-width: 700px){
   body{
     margin-top: -180px;
@@ -80,27 +86,31 @@ body {
     margin-top: -10px;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 300px){
   body{
     margin-top: -80px;
     background-color: aqua;
     background-attachment: fixed;
   }
   #search{
-    width: 120px  ;
-    height: max-content;
+    /* width: 220px  ;
+    height: 60px;
+    font-size: xx-large; */
   }
   #weather{
-    font-size: 5px;
+    font-size: 55px;
     color: rgb(168, 100, 10);
     margin-top: -10px;
   }
   #search{
-    font-size: 5px;
+    font-size: 40px;
     padding: 10px;
     border-radius: 5px;
     border: 5px solid rgb(107, 41, 41);
     outline: none;
     box-shadow: 5px 5px 5px 5px rgb(205, 224, 222);
+    width: 220px  ;
+    height: 80px;
+    border-radius: 10px;
 }
 }
